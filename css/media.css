@@ -1,0 +1,255 @@
+/*Extra Small*/
+@media screen and (max-width: 576px){
+/*------------------------------------HEADER--------------------------------------------*/
+    .header {
+        height: auto;
+    }
+    .header__top {
+        background: #ffffff;
+    }
+    .logo {
+        color: var(--color_1)!important;
+        border-image: 1 linear-gradient(133deg, #282929 35% , #ffcb02 65%);
+    }
+    .header__text-title {
+        font-size: 30px;
+        margin-top: 133px;
+    }
+    .header__text-p {
+        font-size: 14px;
+        margin-bottom: 133px;
+    }
+    .navbar-nav {
+        background-color: #282929;
+        border-radius: 15px;
+    }
+    .nav-item {
+        text-align: center;
+        margin: 10px 0 10px;
+    }
+    .header__nav-link {
+        margin-left: 0;
+        color: #ffffff;
+    }
+    .header__nav-link-active {
+        color: #ffcb02;
+    }
+    .header__nav-link::before , .header__nav-link::after , .header__nav-link-left , .header__nav-link-right {
+        background-color: #ffcb02;
+    }
+    .header__nav-link-left , .header__nav-link-right {
+        background-color: #ffffff;
+    }
+    .main__slider-h2 {
+        margin-top: 40px;
+    }
+    .main__slider-h2 {
+        font-size: 18px;
+    }
+    .main__slider-p {
+        font-size: 14px;
+    }
+    .main__slider-images-img {
+        height: 440px;
+    }
+    .main__tabs-text-title {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .main__tabs-a {
+        margin-top: 45px;
+        margin-bottom: 10px;
+    }
+    .main__tabs-text {
+        margin-top: 25px;
+    }
+    .main__tabs-img {
+        height: auto;
+    }
+    .footer .logo {
+        color: #ffffff!important;
+        border-image: 1 linear-gradient(133deg, #ffffff 35% , #ffcb02 65%);
+    }
+    .footer .navbar-nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+/*Small*/
+@media screen and (max-width: 767px) and (min-width: 576px){
+    /*------------------------------------HEADER--------------------------------------------*/
+    .header {
+        height: auto;
+    }
+    .header__top {
+        background: #ffffff;
+    }
+    .logo {
+        color: var(--color_1)!important;
+        border-image: 1 linear-gradient(133deg, #282929 35% , #ffcb02 65%);
+    }
+    .header__text-title {
+        font-size: 30px;
+        margin-top: 133px;
+    }
+    .header__text-p {
+        font-size: 14px;
+        margin-bottom: 133px;
+    }
+    .navbar-nav {
+        background-color: #282929;
+        border-radius: 15px;
+    }
+    .nav-item {
+        text-align: center;
+        margin: 10px 0 10px;
+    }
+    .header__nav-link {
+        margin-left: 0;
+        color: #ffffff;
+    }
+    .header__nav-link-active {
+        color: #ffcb02;
+    }
+    .header__nav-link::before , .header__nav-link::after , .header__nav-link-left , .header__nav-link-right {
+        background-color: #ffcb02;
+    }
+    .header__nav-link-left , .header__nav-link-right {
+        background-color: #ffffff;
+    }
+    .main__slider-h2 {
+        margin-top: 32px;
+    }
+    .main__tabs-text-title {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .main__tabs-a {
+        margin-top: 45px;
+        margin-bottom: 10px;
+    }
+    .main__tabs-text {
+        margin-top: 25px;
+    }
+    .main__tabs-img {
+        height: auto;
+    }
+    .footer .logo {
+        color: #ffffff!important;
+        border-image: 1 linear-gradient(133deg, #ffffff 35% , #ffcb02 65%);
+    }
+    .footer .navbar-nav {
+        display: flex;
+        flex-direction: row;
+    }
+}
+/*Medium*/
+@media screen and (max-width: 991px) and (min-width: 768px){
+    /*------------------------------------HEADER--------------------------------------------*/
+    .header {
+        height: auto;
+    }
+    .header__top {
+        background: #ffffff;
+    }
+    .logo {
+        color: var(--color_1)!important;
+        border-image: 1 linear-gradient(133deg, #282929 35% , #ffcb02 65%);
+    }
+    .header__text-title {
+        font-size: 30px;
+        margin-top: 133px;
+    }
+    .header__text-p {
+        font-size: 14px;
+        margin-bottom: 133px;
+    }
+    .navbar-nav {
+        background-color: #282929;
+        border-radius: 15px;
+    }
+    .nav-item {
+        text-align: center;
+        margin: 10px 0 10px;
+    }
+    .header__nav-link {
+        margin-left: 0;
+        color: #ffffff;
+    }
+    .header__nav-link-active {
+        color: #ffcb02;
+    }
+    .header__nav-link::before , .header__nav-link::after , .header__nav-link-left , .header__nav-link-right {
+        background-color: #ffcb02;
+    }
+    .header__nav-link-left , .header__nav-link-right {
+        background-color: #ffffff;
+    }
+    .main__slider-h2 {
+        margin-top: 40px;
+    }
+    .main__slider-images-img {
+        height: 400px;
+    }
+    .main__tabs-text-title {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .main__tabs-a {
+        margin-top: 45px;
+        margin-bottom: 10px;
+    }
+    .main__tabs-text {
+        margin-top: 25px;
+    }
+    .main__tabs-img {
+        height: auto;
+    }
+    .footer .logo {
+        color: #ffffff!important;
+        border-image: 1 linear-gradient(133deg, #ffffff 35% , #ffcb02 65%);
+    }
+
+}
+/*Large*/
+@media screen and (max-width: 1199px) and (min-width: 992px){
+    .header {
+        height: 700px;
+    }
+}
+/*Extra Large*/
+@media  (min-width: 1200px){
+
+}
+@media screen and (max-width: 320px) {
+    .navbar-nav {
+        margin-top: 10px;
+    }
+    .header__text-title {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 280px) {
+/*----------------------------HEADER-----------------------*/
+    .navbar-nav {
+        margin-top: 10px;
+    }
+    .header__text-title {
+        font-size: 24px;
+    }
+    .header__text-p {
+        font-size: 12px;
+    }
+    .main__slider-images-img {
+        height: auto;
+    }
+    .main__tabs-text-title {
+        font-size: 14px;
+    }
+    .main__tabs-text-p {
+        font-size: 12px;
+    }
+}
